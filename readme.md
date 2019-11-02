@@ -14,4 +14,4 @@ All the code exists in the code folder. There are three python scripts, they all
 #License
 - My code is license under GNU GPL v3. 
 - Please credit by linking to https://thejeshgn.com
-
+- Email [i]@[thejeshgn].[com]
