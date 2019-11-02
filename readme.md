@@ -9,3 +9,9 @@ All the code exists in the code folder. There are three python scripts, they all
 1. The main db is in data/db/data.sqlite3
 2. some reports are in reports tab along with the sqls I generally use
 3. test - some test data, ignore it
+
+
+#License
+- My code is license under GNU GPL v3. 
+- Please credit by linking to https://thejeshgn.com
+
