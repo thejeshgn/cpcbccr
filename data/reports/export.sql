@@ -1,7 +1,5 @@
+#generic export dara query with dateformatted as YYYYMMDD
 select id,city,site_name,site,state,query_name,from_date date, from_time as time, pm25,pm10, 
-
-
-
  ( substr(from_date,8,4)|| CASE substr(from_date,4,3)
          WHEN 'Jan' THEN '01'
          WHEN 'Feb' THEN '02'
@@ -17,7 +15,6 @@ select id,city,site_name,site,state,query_name,from_date date, from_time as time
          WHEN 'Dec' THEN '12' 
    END
  ||substr(from_date,1,2)  ) as "YYYYMMDD"
-
 from data         
         
 

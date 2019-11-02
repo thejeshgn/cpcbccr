@@ -9,7 +9,7 @@ import hashlib
 import time
 import traceback
 
-db = dataset.connect('sqlite://../data/db/data.sqlite3')
+db = dataset.connect('sqlite:///../data/db/data.sqlite3')
 request_status_datatable = db["request_status_data"]
 data_table = db["data"]
 

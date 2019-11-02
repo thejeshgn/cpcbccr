@@ -8,25 +8,21 @@ import json
 import hashlib 
 import time
 
-db = dataset.connect('sqlite://../data/db/data.sqlite3')
+db = dataset.connect('sqlite:///../data/db/data.sqlite3')
+#TODO 1: edit data/db/data.sqlite3 and add the sites you want to scrape into sites table
 site_table = db["sites"]
-run_name = "run2_"
+run_name = "run2_"  #leave this as it is
 
 for site_row in site_table:
 	state = site_row['state']
 	city = site_row['city']
-	# if city == "Delhi":
-	# 	pass
-	# else:
-	# 	continue
-
 	site = site_row['site']
 	site_name = site_row['site_name']
 	label = state.lower().replace(" ","") +"_"+city.lower().replace(" ","-")+"_"+site+"_"
 	table = db["request_status_data"]
 
-	fromDate = "01-10-2018"  #starting date
-	endDate = "31-10-2018"   #ending date, will be next day after that day
+	fromDate = "1-11-2018"  #TODO 2: starting date
+	endDate = "31-10-2019"   #TODO 3: ending date, will be next day after that day
 	how_many_days = 2
 
 	toDate = ""

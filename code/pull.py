@@ -8,7 +8,7 @@ import json
 import hashlib 
 import time
 
-db = dataset.connect('sqlite://../data/db/data.sqlite3')
+db = dataset.connect('sqlite:///../data/db/data.sqlite3')
 site_table = db["sites"]
 table = db["request_status_data"]
 status_code = 404 # 0 for low priority

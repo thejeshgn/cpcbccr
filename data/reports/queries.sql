@@ -1,3 +1,6 @@
+#various queries that I have used to try and test while running
+
+
 select * from request_status_data where status_code = 404;
 
 select * from request_status_data where status_code = 404 or status_code 0;
