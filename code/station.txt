@@ -1,0 +1,295 @@
+state = "Uttar Pradesh"
+city = "Kanpur"
+site = "site_276"
+site_name = "Nehru Nagar, Kanpur - UPPCB"
+
+state = "Uttar Pradesh"
+city = "Varanasi"
+site = "site_273"
+site_name = "Ardhali Bazar, Varanasi - UPPCB"
+
+state = "Haryana"
+city = "Faridabad"
+site = "site_263"
+site_name = "Sector- 16A, Faridabad, Haryana - HSPCB"
+
+state = "Bihar"
+city = "Gaya"
+site = "site_159"
+site_name = "Collectorate, Gaya - BSPCB"
+
+state = "Bihar"
+city = "Patna"
+site = "site_157"
+site_name = "IGSC Planetarium Complex, Patna - BSPCB"
+
+
+state = "Uttar Pradesh"
+city = "Lucknow"
+site = "site_272"
+site_name = "Central School, Lucknow - CPCB"
+
+state = "Uttar Pradesh"
+city = "Lucknow"
+site = "site_277"
+site_name = "Lalbagh, Lucknow - CPCB"
+
+state = "Uttar Pradesh"
+city = "Lucknow"
+site = "site_1405"
+site_name = "Nishant Ganj, Lucknow - UPPCB"
+
+state = "Uttar Pradesh"
+city = "Lucknow"
+site = "site_297"
+site_name = "Talkatora District Industries Center, Lucknow - CPCB"
+
+
+state = "Uttar Pradesh"
+city = "Agra"
+site = "site_307"
+site_name = "Sanjay Palace, Agra - UPPCB"
+
+
+state = "Uttar Pradesh"
+city = "Muzaffarnagar"
+site = "site_1550"
+site_name = "New Mandi, Muzaffarnagar - UPPCB"
+
+
+state = "Haryana"
+city = "Gurugram"
+site = "site_146"
+site_name = "Vikas Sadan, Gurgaon, Haryana - HSPCB"
+
+state = "Punjab"
+city = "Patiala"
+site = "site_1437"
+site_name = "Model Town, Patiala - PPCB"
+
+
+
+
+
+state = "Rajasthan"
+city = "Jaipur"
+site = "site_1393"
+site_name = "Adarsh Nagar, Jaipur - RSPCB"
+
+
+state = "Rajasthan"
+city = "Jaipur"
+site = "site_134"
+site_name = "Police Commissionerate, Jaipur - RSPCB"
+
+
+state = "Rajasthan"
+city = "Jaipur"
+site = "site_1396"
+site_name = "Shastri Nagar, Jaipur - RSPCB"
+
+
+state = "Rajasthan"
+city = "Jodhpur"
+site = "site_136"
+site_name = "Collectorate, Jodhpur - RSPCB"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_301"
+site_name = "Anand Vihar, Delhi - DPCC"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1420"
+site_name = "Ashok Vihar, Delhi - DPCC"
+
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_108"
+site_name = "Aya Nagar, New Delhi - IMD"
+            
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1560"
+site_name = "Bawana, Delhi - DPCC"
+            
+==
+
+state = "Delhi"
+city = "Delhi"
+site = "site_104"
+site_name = "Burari Crossing, New Delhi - IMD"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_103"
+site_name = " CRRI Mathura Road, New Delhi - IMD"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_118"
+site_name = "DTU, New Delhi - CPCB"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1421"
+site_name = "Dr. Karni Singh Shooting Range, Delhi - DPCC"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1422"
+site_name = "Dwarka-Sector 8, Delhi - DPCC "
+
+state = "Delhi"
+city = "Delhi"
+site = "site_116"
+site_name = "East Arjun Nagar, Delhi - CPCB"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_106"
+site_name = "IGI Airport (T3), New Delhi - IMD"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_114"
+site_name = "IHBAS, Dilshad Garden,New Delhi - CPCB"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_117"
+site_name = "ITO, New Delhi - CPCB"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1423"
+site_name = "Jahangirpuri, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1424"
+site_name = "Jawaharlal Nehru Stadium, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_109"
+site_name = "Lodhi Road, New Delhi - IMD"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1425"
+site_name = "Major Dhyan Chand National Stadium, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_122"
+site_name = "Mandir Marg, New Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1561"
+site_name = "Mundaka, Delhi - DPCC"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_115"
+site_name = "NSIT Dwarka, New Delhi - CPCB"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1427"
+site_name = "Najafgarh, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1426"
+site_name = "Narela, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1429"
+site_name = "Nehru Nagar, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_105"
+site_name = "North Campus, DU, New Delhi - IMD"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1428"
+site_name = "Okhla Phase-2, Delhi - DPCC"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1431"
+site_name = "Patparganj, Delhi - DPCC"
+
+
+state = "Delhi"
+city = "Delhi"
+site = "site_125"
+site_name = "Punjabi Bagh, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1563"
+site_name = "Pusa, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_107"
+site_name = "Pusa, New Delhi - IMD"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_124"
+site_name = "R K Puram, New Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1430"
+site_name = "Rohini, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_113"
+site_name = "Shadipur, New Delhi - CPCB"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_119"
+site_name = "Sirifort, New Delhi - CPCB"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1432"
+site_name = "Sonia Vihar, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1562"
+site_name = "Sri Aurobindo Marg, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1435"
+site_name = "Vivek Vihar, Delhi - DPCC"
+
+state = "Delhi"
+city = "Delhi"
+site = "site_1434"
+site_name = "Wazirpur, Delhi - DPCC"
+      
