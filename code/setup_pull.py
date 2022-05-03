@@ -21,8 +21,8 @@ for site_row in site_table:
 	label = state.lower().replace(" ","") +"_"+city.lower().replace(" ","-")+"_"+site+"_"
 	table = db["request_status_data"]
 
-	fromDate = "1-11-2018"  #TODO 2: starting date
-	endDate = "31-10-2019"   #TODO 3: ending date, will be next day after that day
+	fromDate = "01-01-2022"  #TODO 2: starting date
+	endDate = "31-01-2022"   #TODO 3: ending date, will be next day after that day
 	how_many_days = 2
 
 	toDate = ""
@@ -32,32 +32,32 @@ for site_row in site_table:
 	status_code = 1
 
 	while (objFromDate < datetime.strptime(endDate, "%d-%m-%Y" )):
-		print "####################################################"
+		print("####################################################")
 
 		objToDate = objFromDate +timedelta(days=how_many_days)
 
 		fromDate=objFromDate.strftime("%d-%m-%Y")+time_part
 		toDate=objToDate.strftime("%d-%m-%Y")+time_part
 
-		print fromDate
-		print toDate
+		print(fromDate)
+		print(toDate)
 
 
 		query_name = run_name + label + objFromDate.strftime("%Y%m%d")
 
-		print query_name
+		print(query_name)
 
 		#prompt_pm25='{"draw":1,"columns":[{"data":0,"name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[],"start":0,"length":50,"search":{"value":"","regex":false},"filtersToApply":{"parameter_list":[{"id":7,"itemName":"PM2.5","itemValue":"parameter_193"}],"criteria":"4 Hours","reportFormat":"Tabular","fromDate":"'+fromDate+'","toDate":"'+toDate+'","state":"'+state+'","city":"'+city+'","station":"'+site+'","parameter":["parameter_193"],"parameterNames":["PM2.5"]},"pagination":1}'
 		prompt_both='{"draw":2,"columns":[{"data":0,"name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}}],"order":[],"start":10,"length":10,"search":{"value":"","regex":false},"filtersToApply":{"parameter_list":[{"id":0,"itemName":"PM2.5","itemValue":"parameter_193"},{"id":1,"itemName":"PM10","itemValue":"parameter_215"}],"criteria":"4 Hours","reportFormat":"Tabular","fromDate":"'+fromDate+'","toDate":"'+toDate+'","state":"'+state+'","city":"'+city+'","station":"'+site+'","parameter":["parameter_193","parameter_215"],"parameterNames":["PM2.5","PM10"]},"pagination":1}'
 
 
 		data_to_encode = prompt_both
-		encoded_data = base64.b64encode(data_to_encode)
-		print data_to_encode
+		encoded_data = base64.b64encode(data_to_encode.encode("UTF8"))
+		print(data_to_encode)
 
 		row_exists = table.find_one(query_name=query_name)
 		if row_exists:
-			print "EXISTS SO GO TO NEXT"
+			print("EXISTS SO GO TO NEXT")
 		else:
 			row = {}
 			row['query_name'] = query_name 
@@ -75,5 +75,5 @@ for site_row in site_table:
 
 		#forward in date for next
 		objFromDate = objToDate	
-		print "_______________________________________________________________"
+		print("_______________________________________________________________")
 		#end while

@@ -11,14 +11,14 @@ import time
 db = dataset.connect('sqlite:///../data/db/data.sqlite3')
 site_table = db["sites"]
 table = db["request_status_data"]
-status_code = 404 # 0 for low priority
+status_code = 1 
 row_exists = table.find_one(status_code=status_code)
 
 while row_exists: 	
-	print "#####################################################"+ str(datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S'))
+	print("#####################################################"+ str(datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')))
 	db.begin()
 	query_name =row_exists['query_name'] 
-	print "query_name = "+str(query_name)
+	print("query_name = "+str(query_name))
 	encoded_data = row_exists['encoded_data'] 
 
 	headers = {'Origin': 'https://app.cpcbccr.com'}
@@ -33,9 +33,9 @@ while row_exists:
 
 	r = requests.post("https://app.cpcbccr.com/caaqms/fetch_table_data", headers=headers, data=encoded_data, verify=False)
 	if r.status_code == 200:
-		print "Awesome response code 200"
+		print("Awesome response code 200")
 		json_data = json.dumps(r.json())
-		json_data_hash = hashlib.md5(json_data)
+		json_data_hash = hashlib.md5(json_data.encode("UTF8"))
 		row_exists['json_data'] = json_data
 		row_exists['json_data_hash'] = json_data_hash.hexdigest()
 		row_exists['status_code'] = r.status_code
@@ -43,7 +43,7 @@ while row_exists:
 		row_exists['json_data'] = ""
 		row_exists['status_code'] = r.status_code
 
-	print "UPDATING"
+	print("UPDATING")
 	table.update(row_exists,['id'])
 	db.commit()
 
@@ -57,6 +57,6 @@ while row_exists:
 	#this is for testing	
 	#break
 
-print "_______________________________________________________________"
+print("_______________________________________________________________")
 
 #end while
